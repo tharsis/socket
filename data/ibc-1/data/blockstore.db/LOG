@@ -1,0 +1,96 @@
+=============== Oct 27, 2020 (CET) ===============
+12:18:54.691483 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:18:54.700809 db@open opening
+12:18:54.701536 version@stat F·[] S·0B[] Sc·[]
+12:18:54.705904 db@janitor F·2 G·0
+12:18:54.705937 db@open done T·5.110907ms
+13:11:50.096584 memdb@flush N·14215 S·3MiB
+13:11:50.163148 memdb@flush created L0@3 N·14215 S·2MiB "BH:..7d5,v11601":"blo..ore,v6"
+13:11:50.166250 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+13:11:50.181267 memdb@flush committed F·1 T·84.222714ms
+13:11:50.185692 journal@remove removed @1
+14:19:32.274559 memdb@flush N·14237 S·3MiB
+14:19:32.308264 memdb@flush created L0@5 N·14237 S·2MiB "BH:..941,v14925":"blo..ore,v14220"
+14:19:32.308324 version@stat F·[2] S·4MiB[4MiB] Sc·[0.50]
+14:19:32.314310 memdb@flush committed F·1 T·37.158293ms
+14:19:32.318468 journal@remove removed @2
+15:01:01.686574 memdb@flush N·14235 S·3MiB
+15:01:01.734626 memdb@flush created L0@7 N·14235 S·2MiB "BH:..0ed,v30261":"blo..ore,v28458"
+15:01:01.737453 version@stat F·[3] S·6MiB[6MiB] Sc·[0.75]
+15:01:01.752808 memdb@flush committed F·1 T·63.290404ms
+15:01:01.757487 journal@remove removed @4
+15:42:33.317250 memdb@flush N·14236 S·3MiB
+15:42:33.358770 memdb@flush created L0@9 N·14236 S·2MiB "BH:..c82,v44955":"blo..ore,v42690"
+15:42:33.358841 version@stat F·[4] S·9MiB[9MiB] Sc·[1.00]
+15:42:33.364386 memdb@flush committed F·1 T·46.788955ms
+15:42:33.368624 journal@remove removed @6
+15:42:33.368741 table@compaction L0·4 -> L1·0 S·9MiB Q·56928
+15:42:33.403616 table@build created L1@10 N·16334 S·2MiB "BH:..7d5,v11601":"C:716,v4300"
+15:42:33.441223 table@build created L1@11 N·9681 S·2MiB "C:7160,v42964":"H:7335,v44006"
+15:42:33.481037 table@build created L1@12 N·7235 S·2MiB "H:7336,v44012":"P:5310:0,v31855"
+15:42:33.521877 table@build created L1@13 N·8203 S·2MiB "P:5311:0,v31861":"SC:4151,v24905"
+15:42:33.544768 table@build created L1@14 N·5984 S·979KiB "SC:4152,v24911":"blo..ore,v56922"
+15:42:33.544838 version@stat F·[0 5] S·9MiB[0B 9MiB] Sc·[0.00 0.09]
+15:42:33.555759 table@compaction committed F+1 S+8KiB Ke·0 D·9486 T·186.94181ms
+15:42:33.559101 table@remove removed @9
+15:42:33.559545 table@remove removed @7
+15:42:33.559974 table@remove removed @5
+15:42:33.560194 table@remove removed @3
+16:23:53.776016 memdb@flush N·14205 S·3MiB
+16:23:53.815750 memdb@flush created L0@16 N·14205 S·2MiB "BH:..a85,v64635":"blo..ore,v56928"
+16:23:53.815869 version@stat F·[1 5] S·11MiB[2MiB 9MiB] Sc·[0.25 0.09]
+16:23:53.820910 memdb@flush committed F·1 T·42.864524ms
+16:23:53.825192 journal@remove removed @8
+17:05:16.301925 memdb@flush N·14196 S·3MiB
+17:05:16.337937 memdb@flush created L0@18 N·14196 S·2MiB "BH:..c64,v75633":"blo..ore,v71130"
+17:05:16.338001 version@stat F·[2 5] S·13MiB[4MiB 9MiB] Sc·[0.50 0.09]
+17:05:16.343420 memdb@flush committed F·1 T·40.153334ms
+17:05:16.347264 journal@remove removed @15
+17:46:37.852703 memdb@flush N·14192 S·3MiB
+17:46:37.903875 memdb@flush created L0@20 N·14192 S·2MiB "BH:..faf,v86055":"blo..ore,v85326"
+17:46:37.906811 version@stat F·[3 5] S·15MiB[6MiB 9MiB] Sc·[0.75 0.09]
+17:46:37.919958 memdb@flush committed F·1 T·65.23805ms
+17:46:37.925637 journal@remove removed @17
+18:27:50.476628 memdb@flush N·14148 S·3MiB
+18:27:50.546813 memdb@flush created L0@22 N·14148 S·2MiB "BH:..5c3,v105147":"blo..ore,v99522"
+18:27:50.549946 version@stat F·[4 5] S·18MiB[9MiB 9MiB] Sc·[1.00 0.09]
+18:27:50.563613 memdb@flush committed F·1 T·85.088149ms
+18:27:50.568992 journal@remove removed @19
+18:27:50.569092 table@compaction L0·4 -> L1·5 S·18MiB Q·113670
+18:27:50.606540 table@build created L1@23 N·22212 S·2MiB "BH:..7d5,v11601":"C:12938,v77632"
+18:27:50.636632 table@build created L1@24 N·10350 S·2MiB "C:12939,v77638":"C:5203,v31222"
+18:27:50.673711 table@build created L1@25 N·9872 S·2MiB "C:5204,v31228":"H:14089,v84530"
+18:27:50.704845 table@build created L1@26 N·9306 S·2MiB "H:1409,v8450":"H:5414,v32480"
+18:27:50.741287 table@build created L1@27 N·8033 S·2MiB "H:5415,v32486":"P:1..8:0,v75883"
+18:27:50.773758 table@build created L1@28 N·6312 S·2MiB "P:1..9:0,v75889":"P:1..9:0,v109969"
+18:27:50.810327 table@build created L1@29 N·6455 S·2MiB "P:1832:0,v10987":"P:7088:0,v42523"
+18:27:50.839333 table@build created L1@30 N·9550 S·2MiB "P:7089:0,v42529":"SC:15680,v94079"
+18:27:50.873562 table@build created L1@31 N·12579 S·2MiB "SC:15681,v94085":"SC:9952,v59711"
+18:27:50.882346 table@build created L1@32 N·52 S·8KiB "SC:9953,v59717":"blo..ore,v113664"
+18:27:50.882453 version@stat F·[0 10] S·18MiB[0B 18MiB] Sc·[0.00 0.18]
+18:27:50.888319 table@compaction committed F+1 S+49KiB Ke·0 D·9457 T·319.180844ms
+18:27:50.888478 table@remove removed @22
+18:27:50.891622 table@remove removed @20
+18:27:50.892029 table@remove removed @18
+18:27:50.892346 table@remove removed @16
+18:27:50.892674 table@remove removed @10
+18:27:50.892949 table@remove removed @11
+18:27:50.893245 table@remove removed @12
+18:27:50.893482 table@remove removed @13
+18:27:50.893698 table@remove removed @14
+22:31:30.175526 memdb@flush N·14148 S·3MiB
+22:31:30.219187 memdb@flush created L0@34 N·14148 S·2MiB "BH:..c1c,v127371":"blo..ore,v113670"
+22:31:30.221822 version@stat F·[1 10] S·20MiB[2MiB 18MiB] Sc·[0.25 0.18]
+22:31:30.235185 memdb@flush committed F·1 T·58.902878ms
+22:31:30.239279 journal@remove removed @21
+23:12:45.174289 memdb@flush N·14148 S·3MiB
+23:12:45.237130 memdb@flush created L0@36 N·14148 S·2MiB "BH:..01c,v133425":"blo..ore,v127818"
+23:12:45.240027 version@stat F·[2 10] S·22MiB[4MiB 18MiB] Sc·[0.50 0.18]
+23:12:45.258402 memdb@flush committed F·1 T·82.331731ms
+23:12:45.263025 journal@remove removed @33
+=============== Oct 28, 2020 (CET) ===============
+00:01:26.024397 memdb@flush N·14148 S·3MiB
+00:01:26.080246 memdb@flush created L0@38 N·14148 S·2MiB "BH:..fe9,v150537":"blo..ore,v141966"
+00:01:26.083687 version@stat F·[3 10] S·24MiB[6MiB 18MiB] Sc·[0.75 0.18]
+00:01:26.098583 memdb@flush committed F·1 T·71.679786ms
+00:01:26.103316 journal@remove removed @35
